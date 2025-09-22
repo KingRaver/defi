@@ -297,7 +297,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [![Twitter](https://img.shields.io/twitter/follow/Tokenetics?style=for-the-badge&logo=twitter)](https://twitter.com/Tokenetics)
 [![GitHub](https://img.shields.io/badge/GitHub-KingRaver-black?style=for-the-badge&logo=github)](https://github.com/KingRaver)
 
-**📧 Contact**: [support@tokenetics.space](mailto:support@tokenetics.space)
+**📧 Contact**: [support@tokenetics.space](mailto:tokenetics.pro@gmail.com)
 
 </div>
 
