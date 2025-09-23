@@ -1,0 +1,132 @@
+# =============================================================================
+# 🚀 CRYPTO TRADING BOT REQUIREMENTS - WITH WEB3 SUPPORT
+# =============================================================================
+
+# Core environment and configuration
+python-dotenv>=1.1.0
+requests>=2.32.0
+numpy>=1.26.4
+pandas>=2.3.0
+datetime>=5.5
+anthropic>=0.57.0
+tenacity>=9.1.0
+
+# 🔗 WEB3 & BLOCKCHAIN DEPENDENCIES (NEWLY ADDED)
+web3>=7.12.0
+eth-account>=0.13.7
+eth-abi>=5.2.0
+eth-utils>=5.3.0
+hexbytes>=1.3.0
+cryptography>=45.0.0
+keyring>=25.6.0
+eth-hash>=0.7.1
+eth-typing>=5.2.1
+eth-keyfile>=0.8.1
+eth-keys>=0.7.0
+eth-rlp>=2.2.0
+rlp>=4.1.0
+ckzg>=2.1.1
+pycryptodome>=3.23.0
+websockets>=15.0.1
+pyunormalize>=16.0.0
+bitarray>=3.4.3
+parsimonious>=0.10.0
+cytoolz>=1.0.1
+toolz>=1.0.0
+types-requests>=2.32.0
+
+# Browser automation and scraping
+selenium>=4.34.0
+webdriver-manager>=4.0.2
+
+# Data analysis and visualization  
+matplotlib>=3.10.0
+scikit-learn>=1.7.0
+statsmodels>=0.14.4
+scipy>=1.16.0
+
+# Technical analysis
+ta>=0.11.0
+
+# Machine learning and AI
+tensorflow-macos==2.16.2
+tensorflow-io-gcs-filesystem==0.37.1
+
+# Database
+SQLAlchemy>=2.0.41
+
+# Utilities
+tqdm>=4.67.0
+typing-extensions>=4.14.0
+
+# Google APIs
+google-auth>=2.40.0
+google-api-python-client>=2.175.0
+
+# Advanced data processing
+polars>=1.31.0
+
+# Performance optimization
+numba>=0.61.0
+
+# Async support
+aiohttp>=3.12.0
+
+# System monitoring
+psutil>=7.0.0
+memory-profiler>=0.61.0
+
+# 🔐 CRYPTO & SECURITY DEPENDENCIES (RECOMMENDED)
+cryptography>=43.0.0        # For wallet encryption
+keyring>=25.0.0             # For secure key storage
+pycryptodome>=3.23.0        # Already included via eth-account
+
+# 🌐 ADDITIONAL WEB3 UTILITIES (OPTIONAL BUT USEFUL)
+# uniswap-python>=0.7.0      # For Uniswap integration
+# ens>=0.8.0                 # For ENS domain resolution
+# brownie-eth>=1.20.0        # For smart contract testing
+
+# =============================================================================
+# 📋 INSTALLATION NOTES
+# =============================================================================
+
+# Install command:
+# pip install -r requirements.txt
+
+# For M1/M2 Macs, install in this order:
+# 1. pip install --upgrade pip
+# 2. pip install tensorflow-macos==2.16.2
+# 3. pip install -r requirements.txt
+
+# For Web3 development, also consider:
+# pip install brownie-eth ganache-cli
+
+# =============================================================================
+# 🔧 DEX-SPECIFIC DEPENDENCIES (ADD AS NEEDED)
+# =============================================================================
+
+# For Uniswap V3:
+# uniswap-python>=0.7.0
+
+# For DEX aggregators:
+# 1inch-python>=1.0.0
+
+# For Jupiter (Solana):
+# solana>=0.31.0
+# solders>=0.21.0
+
+# =============================================================================
+# 🚨 SECURITY RECOMMENDATIONS
+# =============================================================================
+
+# Always use virtual environments:
+# python3.11 -m venv venv
+# source venv/bin/activate  # Unix/Mac
+# venv\Scripts\activate     # Windows
+
+# Keep dependencies updated:
+# pip install --upgrade -r requirements.txt
+
+# Pin critical versions in production:
+# web3==7.12.0 (exact version)
+# eth-account==0.13.7 (exact version)
