@@ -1,0 +1,71 @@
+defi/
+│
+├── .github/
+│   └── workflows/
+│       ├── python-app.yml        # GitHub Actions workflow for CI/CD
+│       └── code-quality.yml      # Code quality checks
+│
+├── .vscode/
+│   ├── settings.json             # VSCode workspace settings
+│   ├── extensions.json           # Recommended VSCode extensions
+│   └── launch.json               # Debugging configurations
+│
+├── src/
+│   ├── __init__.py
+│   ├── bot.py                    # Main bot implementation
+│   ├── coingecko_handler.py      # CoinGecko API integration
+│   ├── config.py                 # Configuration management
+│   ├── content_analyzer.py       # Content analysis logic
+│   ├── database.py               # Database interactions
+│   ├── meme_phrases.py           # Meme phrase collection
+│   ├── mood_config.py            # Mood configuration settings
+│   ├── prediction_engine.py      # Price prediction functionality
+│   ├── reply_handler.py          # Reply processing logic
+│   ├── technical_calculations.py # Technical analysis calculations
+│   ├── technical_core.py         # Core technical analysis class
+│   ├── technical_foundation.py   # Technical analysis foundation
+│   ├── technical_indicators.py   # Main technical indicators interface
+│   ├── technical_integration.py  # Technical analysis integration layer
+│   ├── technical_portfolio.py    # Portfolio management
+│   ├── technical_signals.py      # Signal generation
+│   ├── technical_system.py       # System orchestration
+│   ├── timeline_scraper.py       # Timeline data scraping
+│   └── utils/
+│       ├── __init__.py
+│       ├── browser.py            # Browser automation utilities
+│       ├── logger.py             # Logging functionality
+│       └── sheets_handler.py     # Google Sheets integration
+│
+├── data/
+│   ├── backup/
+│   │   └── crypto_history.db.bak # Database backup
+│   └── crypto_history.db         # Main database file
+│
+├── logs/
+│   ├── analysis/
+│   │   └── market_analysis.log   # Market analysis logs
+│   ├── eth_btc_correlation.log   # Ethereum-Bitcoin correlation logs
+│   ├── defi.log                  # Main bot logs
+│   ├── claude.log                # Claude AI integration logs
+│   ├── coingecko.log             # CoinGecko API logs
+│   └── google_sheets_api.log     # Google Sheets API logs
+│
+├── tests/                        # Unit and integration tests
+│   ├── __init__.py
+│   ├── test_bot.py               # Bot testing
+│   ├── test_coingecko_handler.py # CoinGecko handler testing
+│   └── test_database.py          # Database testing
+│
+├── docs/                         # Project documentation
+│   ├── architecture.md           # Architecture documentation
+│   └── setup_guide.md            # Setup instructions
+│
+├── venv/                         # Python virtual environment
+│
+├── .env                          # Environment variables
+├── .gitignore                    # Git ignore patterns
+├── README.md                     # Project overview
+├── CONTRIBUTING.md               # Contribution guidelines
+├── LICENSE                       # License information
+├── requirements.txt              # Python dependencies
+└── setup.py                      # Package setup script
