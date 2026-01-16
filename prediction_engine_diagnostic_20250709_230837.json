@@ -1,0 +1,22 @@
+{
+  "BTC": {
+    "success": false,
+    "error": "No valid prediction method found",
+    "execution_time": 0.6890478134155273
+  },
+  "ETH": {
+    "success": false,
+    "error": "No valid prediction method found",
+    "execution_time": 0.1172170639038086
+  },
+  "AVAX": {
+    "success": false,
+    "error": "No valid prediction method found",
+    "execution_time": 0.1194911003112793
+  },
+  "SOL": {
+    "success": false,
+    "error": "No valid prediction method found",
+    "execution_time": 0.11702799797058105
+  }
+}

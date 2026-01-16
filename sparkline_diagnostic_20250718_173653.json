@@ -1,0 +1,443 @@
+{
+  "timestamp": "2025-07-18T17:36:49.269187",
+  "api_tests": {
+    "bitcoin": {
+      "status": "success",
+      "available_fields": [
+        "id",
+        "symbol",
+        "name",
+        "image",
+        "current_price",
+        "market_cap",
+        "market_cap_rank",
+        "fully_diluted_valuation",
+        "total_volume",
+        "high_24h",
+        "low_24h",
+        "price_change_24h",
+        "price_change_percentage_24h",
+        "market_cap_change_24h",
+        "market_cap_change_percentage_24h",
+        "circulating_supply",
+        "total_supply",
+        "max_supply",
+        "ath",
+        "ath_change_percentage",
+        "ath_date",
+        "atl",
+        "atl_change_percentage",
+        "atl_date",
+        "roi",
+        "last_updated",
+        "sparkline_in_7d"
+      ],
+      "has_sparkline_field": true,
+      "sparkline_structure": "dict",
+      "sparkline_data_type": "list",
+      "sparkline_length": 168,
+      "sample_sparkline_values": [
+        117859.49747777793,
+        117848.04110858658,
+        117875.83779176614,
+        117817.4794051443,
+        117027.85521407622
+      ],
+      "sparkline_keys": [
+        "price"
+      ]
+    },
+    "ethereum": {
+      "status": "success",
+      "available_fields": [
+        "id",
+        "symbol",
+        "name",
+        "image",
+        "current_price",
+        "market_cap",
+        "market_cap_rank",
+        "fully_diluted_valuation",
+        "total_volume",
+        "high_24h",
+        "low_24h",
+        "price_change_24h",
+        "price_change_percentage_24h",
+        "market_cap_change_24h",
+        "market_cap_change_percentage_24h",
+        "circulating_supply",
+        "total_supply",
+        "max_supply",
+        "ath",
+        "ath_change_percentage",
+        "ath_date",
+        "atl",
+        "atl_change_percentage",
+        "atl_date",
+        "roi",
+        "last_updated",
+        "sparkline_in_7d"
+      ],
+      "has_sparkline_field": true,
+      "sparkline_structure": "dict",
+      "sparkline_data_type": "list",
+      "sparkline_length": 168,
+      "sample_sparkline_values": [
+        2985.144398573525,
+        2985.362356148157,
+        2998.491476376375,
+        2994.2980446339516,
+        2954.6737918730178
+      ],
+      "sparkline_keys": [
+        "price"
+      ]
+    },
+    "ripple": {
+      "status": "success",
+      "available_fields": [
+        "id",
+        "symbol",
+        "name",
+        "image",
+        "current_price",
+        "market_cap",
+        "market_cap_rank",
+        "fully_diluted_valuation",
+        "total_volume",
+        "high_24h",
+        "low_24h",
+        "price_change_24h",
+        "price_change_percentage_24h",
+        "market_cap_change_24h",
+        "market_cap_change_percentage_24h",
+        "circulating_supply",
+        "total_supply",
+        "max_supply",
+        "ath",
+        "ath_change_percentage",
+        "ath_date",
+        "atl",
+        "atl_change_percentage",
+        "atl_date",
+        "roi",
+        "last_updated",
+        "sparkline_in_7d"
+      ],
+      "has_sparkline_field": true,
+      "sparkline_structure": "dict",
+      "sparkline_data_type": "list",
+      "sparkline_length": 168,
+      "sample_sparkline_values": [
+        2.6287102294943447,
+        2.6775359988366114,
+        2.7813648198613365,
+        2.8200455692452704,
+        2.787528279995462
+      ],
+      "sparkline_keys": [
+        "price"
+      ]
+    }
+  },
+  "database_tests": {
+    "tables": [
+      "market_data",
+      "sqlite_sequence",
+      "posted_content",
+      "mood_history",
+      "smart_money_indicators",
+      "token_market_comparison",
+      "token_correlations",
+      "generic_json_data",
+      "price_predictions",
+      "prediction_outcomes",
+      "prediction_performance",
+      "technical_indicators",
+      "statistical_forecasts",
+      "ml_forecasts",
+      "claude_predictions",
+      "timeframe_metrics",
+      "replied_posts",
+      "content_analysis",
+      "price_history",
+      "billionaire_portfolio",
+      "billionaire_trades",
+      "billionaire_milestones",
+      "billionaire_performance",
+      "billionaire_risk_management",
+      "billionaire_wealth_targets",
+      "sparkline_data"
+    ],
+    "price_history_columns": [
+      "id",
+      "token",
+      "timestamp",
+      "price",
+      "volume",
+      "market_cap",
+      "total_supply",
+      "circulating_supply",
+      "created_at",
+      "sparkline_data"
+    ],
+    "error": "no such column: high_price"
+  },
+  "data_flow_tests": {
+    "step1_api_fetch": {
+      "status": "success",
+      "fields_present": [
+        "id",
+        "symbol",
+        "name",
+        "image",
+        "current_price",
+        "market_cap",
+        "market_cap_rank",
+        "fully_diluted_valuation",
+        "total_volume",
+        "high_24h",
+        "low_24h",
+        "price_change_24h",
+        "price_change_percentage_24h",
+        "market_cap_change_24h",
+        "market_cap_change_percentage_24h",
+        "circulating_supply",
+        "total_supply",
+        "max_supply",
+        "ath",
+        "ath_change_percentage",
+        "ath_date",
+        "atl",
+        "atl_change_percentage",
+        "atl_date",
+        "roi",
+        "last_updated",
+        "sparkline_in_7d",
+        "price_change_percentage_1h_in_currency",
+        "price_change_percentage_24h_in_currency",
+        "price_change_percentage_7d_in_currency",
+        "_fetch_timeframe",
+        "_fetch_timestamp",
+        "_processing_approach",
+        "_priority_tokens_enhanced",
+        "_total_tokens",
+        "_includes_price_history"
+      ],
+      "has_sparkline": true,
+      "sparkline_structure": "dict",
+      "current_price": 3.43,
+      "volume": 23281490979,
+      "symbol": "XRP"
+    },
+    "step1_sparkline_analysis": {
+      "type": "dict",
+      "content": null,
+      "keys": [
+        "price"
+      ],
+      "price_array_length": 168,
+      "sample_prices": [
+        2.6287102294943447,
+        2.6775359988366114,
+        2.7813648198613365,
+        2.8200455692452704,
+        2.787528279995462
+      ]
+    },
+    "step2_db_enhancement": {
+      "status": "success",
+      "fields_after_enhancement": [
+        "id",
+        "symbol",
+        "name",
+        "image",
+        "current_price",
+        "market_cap",
+        "market_cap_rank",
+        "fully_diluted_valuation",
+        "total_volume",
+        "high_24h",
+        "low_24h",
+        "price_change_24h",
+        "price_change_percentage_24h",
+        "market_cap_change_24h",
+        "market_cap_change_percentage_24h",
+        "circulating_supply",
+        "total_supply",
+        "max_supply",
+        "ath",
+        "ath_change_percentage",
+        "ath_date",
+        "atl",
+        "atl_change_percentage",
+        "atl_date",
+        "roi",
+        "last_updated",
+        "sparkline_in_7d",
+        "price_change_percentage_1h_in_currency",
+        "price_change_percentage_24h_in_currency",
+        "price_change_percentage_7d_in_currency",
+        "_fetch_timeframe",
+        "_fetch_timestamp",
+        "_processing_approach",
+        "_priority_tokens_enhanced",
+        "_total_tokens",
+        "_includes_price_history"
+      ],
+      "sparkline_points": 0,
+      "sparkline_source": "unknown",
+      "has_real_sparkline": false,
+      "enhancement_fields_added": []
+    },
+    "step3_validation_preparation": {
+      "data_structure": "dict_with_token_key",
+      "token_key": "XRP",
+      "token_fields": [
+        "id",
+        "symbol",
+        "name",
+        "image",
+        "current_price",
+        "market_cap",
+        "market_cap_rank",
+        "fully_diluted_valuation",
+        "total_volume",
+        "high_24h",
+        "low_24h",
+        "price_change_24h",
+        "price_change_percentage_24h",
+        "market_cap_change_24h",
+        "market_cap_change_percentage_24h",
+        "circulating_supply",
+        "total_supply",
+        "max_supply",
+        "ath",
+        "ath_change_percentage",
+        "ath_date",
+        "atl",
+        "atl_change_percentage",
+        "atl_date",
+        "roi",
+        "last_updated",
+        "sparkline_in_7d",
+        "price_change_percentage_1h_in_currency",
+        "price_change_percentage_24h_in_currency",
+        "price_change_percentage_7d_in_currency",
+        "_fetch_timeframe",
+        "_fetch_timestamp",
+        "_processing_approach",
+        "_priority_tokens_enhanced",
+        "_total_tokens",
+        "_includes_price_history"
+      ],
+      "validation_critical_fields": {
+        "current_price": 3.43,
+        "total_volume": 23281490979,
+        "market_cap": 203065308938,
+        "sparkline_in_7d": true,
+        "sparkline": false,
+        "prices": false
+      },
+      "possible_sparkline_fields": [
+        "current_price",
+        "price_change_24h",
+        "price_change_percentage_24h",
+        "sparkline_in_7d",
+        "price_change_percentage_1h_in_currency",
+        "price_change_percentage_24h_in_currency",
+        "price_change_percentage_7d_in_currency",
+        "_includes_price_history"
+      ],
+      "extraction_result": {
+        "sparkline_data_found": true,
+        "sparkline_data_type": "dict",
+        "extraction_attempts": {
+          "sparkline": {
+            "found": false
+          },
+          "sparkline_in_7d": {
+            "found": true,
+            "type": "dict",
+            "content_preview": "{'price': [2.6287102294943447, 2.6775359988366114, 2.7813648198613365, 2.8200455692452704, 2.7875282",
+            "selected_for_extraction": true
+          }
+        },
+        "final_extraction_successful": true,
+        "extracted_price_count": 168,
+        "extraction_method": "dict_price_field",
+        "sample_prices": [
+          2.6287102294943447,
+          2.6775359988366114,
+          2.7813648198613365,
+          2.8200455692452704,
+          2.787528279995462
+        ],
+        "meets_min_requirement": true,
+        "min_required_points": 100
+      }
+    }
+  },
+  "extraction_tests": {
+    "coingecko_dict_format": {
+      "extraction_successful": true,
+      "extracted_length": 5,
+      "extracted_values": [
+        1.0,
+        1.1,
+        1.2
+      ],
+      "sparkline_field_found": true,
+      "sparkline_data_type": "dict"
+    },
+    "direct_list_format": {
+      "extraction_successful": true,
+      "extracted_length": 5,
+      "extracted_values": [
+        1.0,
+        1.1,
+        1.2
+      ],
+      "sparkline_field_found": true,
+      "sparkline_data_type": "list"
+    },
+    "prices_field_format": {
+      "extraction_successful": true,
+      "extracted_length": 5,
+      "extracted_values": [
+        1.0,
+        1.1,
+        1.2
+      ],
+      "sparkline_field_found": true,
+      "sparkline_data_type": "list"
+    },
+    "nested_prices_format": {
+      "extraction_successful": true,
+      "extracted_length": 5,
+      "extracted_values": [
+        1.0,
+        1.1,
+        1.2
+      ],
+      "sparkline_field_found": true,
+      "sparkline_data_type": "dict"
+    }
+  },
+  "recommendations": [],
+  "validation_tests": {
+    "requirements": {
+      "min_required_points": 100,
+      "min_volume_1h": 100000,
+      "min_volume_24h": 1000000,
+      "min_volume_7d": 5000000,
+      "min_market_cap": 10000000,
+      "data_quality_threshold": 0.95
+    },
+    "typical_coingecko_sparkline_length": 168,
+    "requirements_analysis": {
+      "min_points": "realistic",
+      "volume_concern": true
+    }
+  }
+}

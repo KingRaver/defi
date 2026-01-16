@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-07-18T20:01:26.943752",
+  "storage_flow_tests": {
+    "api_to_storage": {
+      "status": "success",
+      "fetch_time": 0.6848371028900146,
+      "sparkline_found": true,
+      "sparkline_length": 168,
+      "sample_prices": [
+        117859.49747777793,
+        117848.04110858658,
+        117875.83779176614,
+        117817.4794051443,
+        117027.85521407622
+      ],
+      "manual_storage_success": true
+    },
+    "manual_tests": {
+      "store_sparkline_data": true,
+      "enhance_market_data": true
+    }
+  },
+  "method_trace": [],
+  "database_before": {
+    "sparkline_table_records": 0,
+    "sparkline_column_records": 0,
+    "recent_price_records": [
+      {
+        "token": "MATIC",
+        "count": 2581,
+        "last_update": "2025-07-18 17:14:28.420945"
+      },
+      {
+        "token": "KAITO",
+        "count": 2581,
+        "last_update": "2025-07-18 17:14:28.415874"
+      },
+      {
+        "token": "FIL",
+        "count": 2581,
+        "last_update": "2025-07-18 17:14:28.410901"
+      },
+      {
+        "token": "OFFICIAL-TRUMP",
+        "count": 10,
+        "last_update": "2025-07-18 17:14:28.405767"
+      },
+      {
+        "token": "NEAR",
+        "count": 2581,
+        "last_update": "2025-07-18 17:14:28.400627"
+      }
+    ],
+    "total_price_records": 43416
+  },
+  "database_after": {
+    "sparkline_table_records": 0,
+    "sparkline_column_records": 2,
+    "recent_sparkline_records": [
+      {
+        "token": "bitcoin",
+        "timestamp": "2025-07-18 20:01:27.731443",
+        "data_length": 3333
+      },
+      {
+        "token": "bitcoin",
+        "timestamp": "2025-07-18 20:01:27.716369",
+        "data_length": 3333
+      }
+    ]
+  },
+  "errors_found": [],
+  "analysis": {
+    "data_was_stored": true,
+    "storage_method_working": true,
+    "likely_issues": [],
+    "recommendations": []
+  }
+}
