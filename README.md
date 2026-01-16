@@ -1,4 +1,4 @@
-# Tokenetics - AI-Powered Autonomous DeFi Trading Platform
+# AI-Powered DeFi Trading
 
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 ![Python Version](https://img.shields.io/badge/python-3.11%2B-brightgreen)
