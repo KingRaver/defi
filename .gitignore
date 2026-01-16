@@ -99,6 +99,11 @@ timeline_*.png
 reply_debug_*.png
 timeline_navigation_*.png
 timeline_results_*.png
+*.png
+
+# Diagnostics files
+*diagnostics*.json
+*.diagnostics.json
 
 # System files
 Thumbs.db
