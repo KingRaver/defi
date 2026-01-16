@@ -1,6 +1,6 @@
 # Tokenetics - AI-Powered Autonomous DeFi Trading Platform
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 ![Python Version](https://img.shields.io/badge/python-3.11%2B-brightgreen)
 ![Status](https://img.shields.io/badge/status-final--testing-orange)
 ![Build](https://img.shields.io/badge/build-production--ready-brightgreen)
@@ -621,7 +621,9 @@ See [requirements.txt](requirements.txt) for complete list.
 
 ## License
 
-MIT License - See [LICENSE](LICENSE) file
+This software is proprietary and available for research and educational purposes only. Commercial use requires explicit permission.
+
+See [LICENSE.md](LICENSE.md) for full license terms.
 
 ## Support
 
