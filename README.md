@@ -57,7 +57,7 @@ The infrastructure for autonomous trading is complete - we're just ensuring the 
 - **Multi-timeframe analysis**: Analyzes 1h, 4h, 24h, and 7d trends simultaneously
 
 ### AI Content Generation & Social Intelligence
-- **Claude AI integration** (claude-3-5-sonnet) for sophisticated market analysis
+- **Claude AI integration** (claude-3-7-sonnet) for sophisticated market analysis
 - **Social media sentiment** - Scrapes and analyzes X/Twitter for community sentiment
 - **Trending topic detection** - Identifies viral crypto discussions and market narratives
 - **Mood-based language** - Dynamic content adaptation based on market conditions
