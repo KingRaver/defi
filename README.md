@@ -114,7 +114,7 @@ Currently analyzing and ready to trade 13 major tokens:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                 AUTONOMOUS TRADING LAYER (Ready)             │
+│                 AUTONOMOUS TRADING LAYER (Ready)            │
 │  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐    │
 │  │  Trade        │  │  Risk         │  │  Portfolio    │    │
 │  │  Execution    │  │  Management   │  │  Manager      │    │
@@ -122,7 +122,7 @@ Currently analyzing and ready to trade 13 major tokens:
 └───────────────────────────┬─────────────────────────────────┘
                             │
 ┌───────────────────────────▼─────────────────────────────────┐
-│                BLOCKCHAIN INTEGRATION LAYER                  │
+│                BLOCKCHAIN INTEGRATION LAYER                 │
 │  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐    │
 │  │  Ethereum     │  │  Polygon      │  │  Arbitrum     │    │
 │  │  Web3 Provider│  │  RPC Nodes    │  │  Layer 2      │    │
@@ -130,7 +130,7 @@ Currently analyzing and ready to trade 13 major tokens:
 └───────────────────────────┬─────────────────────────────────┘
                             │
 ┌───────────────────────────▼─────────────────────────────────┐
-│                    DEFI PROTOCOL LAYER                       │
+│                    DEFI PROTOCOL LAYER                      │
 │  ┌────────────────┐  ┌────────────────┐  ┌───────────────┐  │
 │  │ Uniswap V3/V4  │  │ Aave Protocol  │  │ Compound V3   │  │
 │  │ Integration    │  │ Lending/Borrow │  │ Money Markets │  │
@@ -138,7 +138,7 @@ Currently analyzing and ready to trade 13 major tokens:
 └───────────────────────────┬─────────────────────────────────┘
                             │
 ┌───────────────────────────▼─────────────────────────────────┐
-│                 SOCIAL INTELLIGENCE LAYER (Active)           │
+│                 SOCIAL INTELLIGENCE LAYER (Active)          │
 │  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐    │
 │  │  X/Twitter    │  │  Sentiment    │  │  Trending     │    │
 │  │  Scraping     │  │  Analysis     │  │  Detection    │    │
@@ -146,7 +146,7 @@ Currently analyzing and ready to trade 13 major tokens:
 └───────────────────────────┬─────────────────────────────────┘
                             │
 ┌───────────────────────────▼─────────────────────────────────┐
-│              AI DECISION & PREDICTION LAYER (Active)         │
+│              AI DECISION & PREDICTION LAYER (Active)        │
 │  ┌────────────────┐  ┌────────────────┐  ┌───────────────┐  │
 │  │ Claude AI      │  │ LSTM/ARIMA     │  │ Ensemble      │  │
 │  │ Integration    │  │ Predictions    │  │ Models        │  │
@@ -154,7 +154,7 @@ Currently analyzing and ready to trade 13 major tokens:
 └───────────────────────────┬─────────────────────────────────┘
                             │
 ┌───────────────────────────▼─────────────────────────────────┐
-│               TECHNICAL ANALYSIS ENGINE (Active)             │
+│               TECHNICAL ANALYSIS ENGINE (Active)            │
 │  ┌────────────────┐  ┌────────────────┐  ┌───────────────┐  │
 │  │ 50+ Technical  │  │ Pattern        │  │ Multi-TF      │  │
 │  │ Indicators     │  │ Recognition    │  │ Analysis      │  │
@@ -162,7 +162,7 @@ Currently analyzing and ready to trade 13 major tokens:
 └───────────────────────────┬─────────────────────────────────┘
                             │
 ┌───────────────────────────▼─────────────────────────────────┐
-│                       DATA LAYER (Active)                    │
+│                       DATA LAYER (Active)                   │
 │  ┌────────────────┐  ┌────────────────┐  ┌───────────────┐  │
 │  │ CoinGecko API  │  │ SQLite DB      │  │ Google Sheets │  │
 │  │ Integration    │  │ 5,420 lines    │  │ Logging       │  │
